@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.gold{
+	background-color: gold;
+}
+
+.light-blue{
+	background-color: #00A3D9;
+}
+
+section.container{
+	width: 100%;	
+}
+
+div.flex{
+	display: flex;
+	max-width: 960px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+div.w50{
+	width: 50%;
+}

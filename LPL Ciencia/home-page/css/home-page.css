@@ -1,0 +1,77 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body{ height: 100%;}
+
+#image-astro1{ width:100%; max-width:583px; height:478px; float:left; background-image: url('../images/ISS.jpg'); 
+ background-position: center; background-repeat: no-repeat; background-size: 100% 100%; cursor: pointer;
+position: relative; left: 13%}
+
+a #image-astro1{ color: white; }
+
+#image-astro1:hover{width: 680px; max-width: none; height: 484px; z-index: 1;}
+
+#image-eco1{ width:100%; max-width:540px;  height:240px; float:right; background-image: url('../images/Pantanal.jpg');
+background-position: center; background-repeat: no-repeat; background-size: 100% 100%; cursor: pointer;
+position: relative; right: 13%}
+
+a #image-eco1{ color: white; }
+
+#image-eco1:hover{width: 710px; max-width: none; height: 245px; z-index: 1;}
+
+#image-geo1{ width:100%; max-width:540px;  height:238px; float:right; background-image: url('../images/plataforma.jpg');
+background-position: center; background-repeat: no-repeat; background-size: 100% 100%; cursor: pointer;
+position: relative; right: 13%}
+
+a #image-geo1{ color: white; }
+
+#image-geo1:hover{width: 710px; max-width: none; height: 245px; z-index: 1;}
+
+/*.Slider{display:inline-block;width:auto;height:auto;}*/
+
+@media screen and (max-width:1150px){
+
+	header{text-align: center;}
+
+    #image-astro1{ max-width: 840px; width: 100%; }
+
+    #image-eco1{ max-width: 840px; width: 100%; }
+
+    #image-geo1{ max-width: 840px; width: 100%; }
+
+
+}
+
+@media screen and (max-width:880px){
+
+	header{text-align: center;}
+    
+    .Slider{ max-width: 640px;width: 100%; margin: 0 2%;}
+
+    #image-astro1{ max-width: 640px; width: 100%;}
+
+    #image-eco1{ max-width: 640px; width: 100%;}
+
+    #image-geo1{ max-width: 640px; width: 100%;}
+
+}
+
+@media screen and (max-width:680px){
+
+	header{text-align: center;}
+    
+    .Slider{ max-width: 440px;width: 100%; margin: 0 2%;}
+
+    #image-astro1{ max-width: 440px; width: 100%;}
+
+    #image-eco1{ max-width: 440px; width: 100%;}
+
+    #image-geo1{ max-width: 440px; width: 100%;}
+
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+
+footer{ width:100%; height:150px; text-align:center; display:inline-block; background-image: linear-gradient(to right rgb(235, 219, 218), #edb5b2);}

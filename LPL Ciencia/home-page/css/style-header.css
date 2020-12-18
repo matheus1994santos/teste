@@ -1,0 +1,48 @@
+/* --- --- header --- --- */
+
+header{
+	width: 100%;
+	height: 108px;
+	background-image: url('../images/estrelas2.png');
+	background-size: contain;
+	text-align: center;
+	
+	
+}
+
+.clear{ clear: both;}
+
+
+#logomarca{ display: inline-flex; width: 590px; height: 50px; margin: 28px 4% 0 6%;}
+
+#titulo{ display: inline-block;  }
+
+#titulo{ margin-top: 6px; padding: 0;}
+
+#titulo h2{font-style: italic; background-color: white; font-size: 26px;}
+
+#logo1{display: inline-block; width: 70px; height: 38px; margin-right: 15px;}
+
+#logo1{ background-image: url('../images/saturno.png'); background-size: cover; background-repeat: no-repeat; }
+
+#logo2{	display: inline-block; width: 70px; height: 38px; margin-left: 15px;}
+
+#logo2{	background-image: url('../images/saturno.png'); background-size: cover; background-repeat: no-repeat;}
+
+@media screen and (max-width:1150px){
+
+	#logomarca{ text-align: center; position: relative; left: 45px; }
+
+}
+
+@media screen and (max-width:860px){
+
+	#logomarca{ text-align: center;}
+
+}
+
+@media screen and (max-width:680px){
+
+	#logomarca{ text-align: center; position: relative; left: 8px;}
+
+}

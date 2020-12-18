@@ -1,0 +1,77 @@
+/* lista de backgrounds*/
+
+/* .light-lemon, .light-green, .light-skyblue, .light-blue, .light-orange, .light-salmon, */
+/* .light-yellow, .light-skypurple, .light-roxo, .light-skypink, .light-pink, .light-red, */
+/* .light-skygray, .light-gray, .light-wife */
+
+
+/* lista de color*/
+
+/* .c-red, .c-white, .c-black, .c-gray, .c-orange, .c-yellow, .c-lemon, .c-oliv, .c-green,
+.c-green2, .c-skyblue, .c-skyblue2, .c-blue, .c-purple, .c-purple2 */
+
+
+
+/*-------------- Background ---------------------*/
+
+.light-orange{background-image: linear-gradient(#f5c542, #fadb87);}
+
+.light-salmon{background-image: linear-gradient(#ff5757, #fc6f6f);}
+
+.light-yellow{background-image: linear-gradient(#f7ff14, #f3f772);}
+
+.light-lemon{background-image: linear-gradient(#a6ff00, #bcfc44);}
+
+.light-green{background-image: linear-gradient(#1eff00, #6bff57);}
+
+.light-skyblue{background-image: linear-gradient(#00fcdb, #7affee);}
+
+.light-blue{background-image: linear-gradient(#0516ff, #5965ff);}
+
+.light-skypurple{background-image: linear-gradient(#bd38ff, #ce6bff);}
+
+.light-roxo{background-image: linear-gradient(#6e0085, #a141b5);}
+
+.light-skypink{background-image: linear-gradient(#ff00d4, #fc5de2);}
+
+.light-pink{background-image: linear-gradient(#ff00bf, #ff4dd2);}
+
+.light-red{background-image: linear-gradient(#ff0000, #ff6969);}
+
+.light-skygray{background-image: linear-gradient(#6b6565, #a19797);}
+
+.light-gray{background-image: linear-gradient(#3b3939 , #706d6d);}
+
+.light-wife{background-image: linear-gradient(#750808, #d44848);}
+/*--------------------------------------------------------------------*/
+
+.izallo{ background: #f2a0ae; }
+
+/*--------------------------------------------------------------------*/
+
+/* lista de color*/
+
+
+/*--------- color ----------*/
+
+.c-red{color: red;}
+.c-white{color: white;}
+.c-black{color: #000000;}
+.c-gray{color: #3E2723;}
+.c-orange{color: #FF3D00;}
+.c-yellow{color: #FFC400;}
+.c-lemon{color: #C6FF00;}
+.c-oliv{color: #827717;}
+.c-green{color: #64DD17;}
+.c-green2{color: #33691E;}
+.c-skyblue{color: #00B8D4;}
+.c-skyblue2{color: #18FFFF;}
+.c-blue{: #304FFE;}
+.c-purple{color: #D500F9;}
+.c-purple2{color: #EA80FC;}
+/*.c-red{color: ;}*/
+/*.c-red{color: ;}*/
+/*.c-red{color: ;}*/
+/*.c-red{color: ;}
+
+/*--------------------------------------------------------------------*/
